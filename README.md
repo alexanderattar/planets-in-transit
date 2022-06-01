@@ -18,10 +18,6 @@ Set your `RINKEBY_RPC_URL` [environment variable.](https://www.twilio.com/blog/2
 
 You can set these in your `.env` file if you're unfamiliar with how setting environment variables work. Check out our [.env example](https://github.com/smartcontractkit/hardhat-starter-kit/blob/main/.env.example). If you wish to use this method to set these variables, update the values in the .env.example file, and then rename it to '.env'
 
-![WARNING](https://via.placeholder.com/15/f03c15/000000?text=+) **WARNING** ![WARNING](https://via.placeholder.com/15/f03c15/000000?text=+)
-
-Don't commit and push any changes to .env files that may contain sensitive information, such as a private key! If this information reaches a public GitHub repository, someone can use it to check if you have any Mainnet funds in that wallet address, and steal them!
-
 `.env` example:
 
 ```
@@ -73,14 +69,6 @@ npx hardhat deploy --network rinkeby --tags svg
 ```
 
 This will also call the `create` function
-
-# Create NFT & View on OpenSea
-
-Once deployed, each will look something like this:
-
-[SVGNFT Opensea](https://testnets.opensea.io/assets/0x2695C58d06501A0f62d3c80e3009DFc655632f7c/0)
-[Random SVG Opensea](https://testnets.opensea.io/assets/0x418859e0d1a9a31461359e759347141e7e854cf4/2)
-[Another Random SVG Opensea](https://testnets.opensea.io/assets/0x418859e0d1a9a31461359e759347141e7e854cf4/3)
 
 ## Test
 
